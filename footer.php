@@ -1,4 +1,3 @@
-<!-- test -->
 <footer>
     <section class="container footer">
         <div class="row no-gutters">
