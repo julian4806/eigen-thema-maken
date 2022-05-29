@@ -12,7 +12,7 @@
         <a href="#">Read More</a>
     </div>
     <div class="">
-        <img src=imgs/fitness.jpg class='img-fluid img-fit' alt='Fitness girl'>
+        <img src='<?php bloginfo('template_url'); ?>/imgs/fitness.jpg' class='img-fluid img-fit' alt='Fitness girl'>
     </div>
     <div class="infosquare">
         <h5>Love your</h5>
@@ -26,6 +26,6 @@
         <a href="#">Read More</a>
     </div>
     <div class="">
-        <img src=imgs/watch.jpg class='img-fluid img-fit' alt='Smartwatch'>
+        <img src='<?php bloginfo('template_url'); ?>/imgs/watch.jpg' class='img-fluid img-fit' alt='Smartwatch'>
     </div>
 </aside>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <title><?php bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <link rel="icon" class='img-fluid img-fit' type="image/png" href="<?php bloginfo('template_url'); ?>/imgs/favicon.ico" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
 
     <!--Bootstrap CSS-->
