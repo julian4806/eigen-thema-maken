@@ -19,6 +19,13 @@ body {
   color: #fff;
 }
 
+.menu-item a {
+  color: rgba(0, 0, 0, 0.5);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-transform: uppercase;
+}
+
 .dfdf {
   background-color: orchid;
 }

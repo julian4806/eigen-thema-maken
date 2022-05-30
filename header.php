@@ -22,6 +22,3 @@
 
 
 <body>
-</body>
-
-</html>

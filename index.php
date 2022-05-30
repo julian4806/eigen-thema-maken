@@ -6,18 +6,26 @@
 			<div class="col-12 header">
 				<!-- BEGIN NAVBAR -->
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand" href="#">FITNESS</a>
+					<a class="navbar-brand" href="function home_url( $path = '', $scheme = null ) {return get_home_url( null, $path, $scheme );}"><?php bloginfo('name'); ?></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-						<div class="navbar-nav">
+						<!-- <div class="navbar-nav">
 							<a class="nav-item nav-link" href="#">ABOUT</a>
 							<a class="nav-item nav-link" href="#">HOW IT WORKS</a>
 							<a class="nav-item nav-link" href="#">SERVICES</a>
 							<a class="nav-item nav-link" href="#">FAQ</a>
 							<a class="nav-item nav-link" href="#">CONTACT</a>
-						</div>
+						</div> -->
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'mijn_custom_menu',
+								'menu_class' => 'navbar-nav'
+							)
+						);
+						?>
 					</div>
 				</nav>
 				<!-- EINDE NAVBAR -->

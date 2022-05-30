@@ -13,3 +13,9 @@ function arphabet_widgets_init()
 }
 
 add_action('widgets_init', 'arphabet_widgets_init');
+
+function mytheme_menu()
+{
+    register_nav_menu('mijn_custom_menu', __('Mijn Custom Menu'));
+}
+add_action('init', 'mytheme_menu');
