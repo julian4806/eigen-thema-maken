@@ -54,7 +54,7 @@
 							the_title('<h2>', '</h2>');
 						} else {
 							the_title('<h2>', '</h2>');
-							the_post_thumbnail('medium');
+							the_post_thumbnail('singlepost-thumb');
 						}
 
 						the_content();
