@@ -29,8 +29,8 @@ Template Name: Custom Template (:
                 <!-- EINDE NAVBAR -->
                 <img src='<?php bloginfo('template_url'); ?> /imgs/couple-exercising2.jpg' class='img-fluid img-fit' alt="Couple exercising">
                 <div class="header-text">
-                    <h1>Fitness in a can</h1>
-                    <h3>Yes you can</h3>
+                    <h1><?php bloginfo('name'); ?></h1>
+                    <h3><?php bloginfo('description'); ?></h3>
                 </div>
             </div>
         </div>
