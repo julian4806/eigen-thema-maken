@@ -51,12 +51,12 @@
 
 						if (is_front_page()) {
 							the_post_thumbnail('header-image');
+							the_title('<h2>', '</h2>');
 						} else {
-							add_image_size('singlepost-thumb');
+							the_title('<h2>', '</h2>');
+							the_post_thumbnail('medium');
 						}
 
-						the_title('<h2>', '</h2>');
-						the_post_thumbnail('medium');
 						the_content();
 					}
 				}
